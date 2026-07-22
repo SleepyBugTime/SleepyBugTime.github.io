@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SleepyBugTime</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HAMBURGER MENU BUTTON ================= -->
+<button class="menu-toggle" aria-label="Open menu">
+  <span></span><span></span><span></span>
+</button>
+
+<!-- ================= DROPDOWN MENU PANEL ================= -->
+<nav class="nav-panel">
+  <ul class="nav-links">
+    <li><a href="index.html" class="current">Home</a></li>
+    <!-- "Photos" goes to the gateway/interstitial page first -->
+    <li><a href="photos-intro.html">Photos</a></li>
+    <li><a href="writing.html">Writing</a></li>
+    <li><a href="videos.html">Videos</a></li>
+    <li><a href="other.html">Other</a></li>
+  </ul>
+
+  <!-- ============ SOCIAL LINKS =============
+       Replace each href="#" below with your real profile links. -->
+  <div class="nav-socials">
+    <a href="https://www.instagram.com/kirghizlite?igsh=YmgweWMyZmtuc3Rs&utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2">
+        <rect x="2" y="2" width="20" height="20" rx="5"/>
+        <circle cx="12" cy="12" r="4.5"/>
+        <circle cx="17.3" cy="6.7" r="1.1" fill="#000" stroke="none"/>
+      </svg>
+    </a>
+    <a href="https://www.youtube.com/@slackerrocknotdead" aria-label="YouTube" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24">
+        <rect x="1" y="4" width="22" height="16" rx="4" fill="#ff0000"/>
+        <path d="M10 8.5v7l6-3.5z" fill="#fff"/>
+      </svg>
+    </a>
+   
+    <a href="https://letterboxd.com/jmcmahon/" aria-label="Letterboxd" target="_blank" rel="noopener">
+      <img src="images/letterboxd-icon.svg" alt="Letterboxd" width="34" height="34">
+    </a>
+  </div>
+</nav>
+
+<!-- ================= HERO / BACKGROUND VIDEO ================= -->
+<div class="home-hero">
+
+  <video autoplay muted loop playsinline poster="images/home-bg-fallback.jpg">
+    <source src="videos/stars.mp4" type="video/mp4">
+  </video>
+
+  <div class="welcome-card">
+    <h1>Welcome to my site!</h1>
+    <p class="byline">My name is Jake.</p>
+    <p>Here you can find photos, videos, articles, drawings, short stories, and anything else I want to share!</p>
+    <p>Use the menu on the upper left to navigate the different pages.</p>
+	<a class="card-contact" href="mailto:jakemcm9@gmail.com">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="M2 6l10 7 10-7"/>
+      </svg>
+      Contact
+    </a>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
